@@ -15,7 +15,7 @@
       "setup": "",
       "run": "python3 main.py",
       "input": "8\r\nfind 3839442\r\nadd 123456 me\r\nadd 0 granny\r\nfind 0\r\nfind 123456\r\ndel 0\r\ndel 0\r\nfind 0",
-      "output": "not found\r\ngranny\r\nme\r\nnot found",
+      "output": "not found\r\ngranny\r\nme\r\nnot found\r\nnot found",
       "comparison": "included",
       "timeout": 1,
       "points": 0
