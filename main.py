@@ -27,7 +27,7 @@ def process_queries(queries):
             contacts[current_query.number] = current_query.name
         elif current_query.type == 'del' and current_query.number in contacts:
             del contacts[current_query.number]
-        else:
+        elif current_query.type == 'find':
             response = 'not found'
             if current_query.number in contacts:
                 response = contacts[current_query.number]
